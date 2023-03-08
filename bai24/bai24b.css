@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0 0 20px #ccc;
+}
+
+header img {
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #9f9b96;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.heading-text {
+    color: #fff;
+    font-size: 24px;
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+}
+
+.sub-heading {
+    color: #fff;
+    font-size: 14px;
+}
+
+nav {
+    padding: 6px 0;
+    background-color: #adaca8;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 16px;
+    transition: 0.3s all;
+}
+
+nav li a:hover {
+    color: #000;
+}
+
+/* content */
+.content img {
+    width: 100%;
+}
+
+.content-left-group {
+    width: 70%;
+    padding: 16px;
+    border-right: 1px solid #ccc;
+}
+
+.masterclass,
+.vegetable {
+    margin-bottom: 16px;
+}
+
+.masterclass-image,
+.vegetable-image {
+    border: 1px solid #ccc;
+}
+
+.masterclass-image img,
+.vegetable-image img{
+    height: 200px;
+}
+
+.masterclass-image__des,
+.vegetable-image__des {
+    padding: 4px 0 6px 0;
+}
+
+.masterclass-text,
+.vegetable-text {
+    padding-left: 16px;
+    padding-top: 24px;
+}
+
+.masterclass-text__heading,
+.vegetable-text__heading {
+    padding-bottom: 24px;
+}
+
+.masterclass-text__heading p,
+.vegetable-text__heading p {
+    color: #c94343;
+}
+
+/* right-group */
+.content-right-group {
+    width: 30%;
+}
+
+.content-right-group li {
+    list-style-type: none;
+}
+
+.contact,
+.popular-recipes {
+    color: #c94343;
+    padding: 12px;
+}
+
+.contact__list,
+.popular-recipes__list {
+    padding: 12px 2px;
+}
+
+.popular-recipes__list li {
+    padding: 6px 6px;
+    border-bottom: 1px solid rgba(201, 67, 67, 0.2);
+}
+
+.popular-recipes__list a {
+    text-decoration: none;
+    color: #c94343;
+}
+
+.contact {
+    margin-top: 128px;
+}
+
+.contact__list {
+    color: #333;
+}
+
+footer {
+    padding: 8px;
+    background-color: #adaca8;
+    border-radius: 0 0 3px 3px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #fff;
+}
